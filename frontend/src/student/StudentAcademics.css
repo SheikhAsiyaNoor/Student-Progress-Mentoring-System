@@ -1,0 +1,53 @@
+.page {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  .tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .tabs button {
+    flex: 1;
+    padding: 0.75rem;
+    background-color: #bdc3c7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .tabs button.active {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  .tab-content {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .academics-container {
+    padding: 20px;
+  }
+  
+  .academics-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .academics-table th,
+  .academics-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .academics-table th {
+    background-color: #2c3e50;
+    color: white;
+  }
+  

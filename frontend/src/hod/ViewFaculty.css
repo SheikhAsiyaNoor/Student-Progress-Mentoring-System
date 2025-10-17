@@ -1,0 +1,102 @@
+.view-faculty-container {
+    padding: 20px;
+    background-color: #f5f6fa;
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.controls input,
+.controls select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.controls input {
+    flex: 2;
+}
+
+.controls select {
+    flex: 1;
+}
+
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.faculty-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.faculty-card h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.faculty-card p {
+    margin: 8px 0;
+    color: #34495e;
+}
+
+.faculty-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.view-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-btn:hover {
+    background-color: #2980b9;
+}
+
+.students-list {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.students-list h4 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.students-list table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.students-list th,
+.students-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.students-list th {
+    background-color: #f8f9fa;
+    font-weight: 500;
+}

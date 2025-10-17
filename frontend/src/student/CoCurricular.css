@@ -1,0 +1,22 @@
+.cocurricular-container {
+    padding: 20px;
+  }
+  
+  .cocurricular-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .cocurricular-table th,
+  .cocurricular-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cocurricular-table th {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
